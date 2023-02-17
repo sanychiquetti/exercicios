@@ -1,0 +1,6 @@
+/*qdo usamos background-image, por padrão ele sempre vai repetir as imagens, mas podemos mudar isso com o backgraound-repeat: no-repeat*/
+body{
+    background-image: url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 100px 100px; /*aqui mudamos o tamanho da imagem*/
+    background-repeat: no-repeat; /*podemos usar o repeat-y ou repeat-x*/
+}
