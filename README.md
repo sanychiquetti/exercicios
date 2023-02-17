@@ -1,2 +1,2 @@
 # exercicios
- Exercício do curso CursoEmVideo
+ Exercícios do curso CursoEmVideo
