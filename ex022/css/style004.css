@@ -1,0 +1,8 @@
+body{
+    height: 98vh; /*fazendo ele ter uma medida para a centarlização ter um parâametro*/
+    border: 1px dashed black;
+    background-image: url('http://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right bottom; /*sempre a coluna depois a linha*/
+}
