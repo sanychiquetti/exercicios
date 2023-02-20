@@ -1,16 +1,22 @@
-/*Sempre colque uma cor de fundo, pois a imagem sempre carrega depois.*/
+/*Sempre coloque uma cor de fundo, pois a imagem sempre carrega depois.*/
 body{
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url('../imagens/wallpaper002.jpg');
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover; /*fazemos ela ocupar toda a tela, mas ele corta a imagem de acordo com a tela para não distorcer*/
+    background-size: cover; fazemos ela ocupar toda a tela, mas ele corta a imagem de acordo com a tela para não distorcer*/
+    /*background-attachment: fixed; aqui deixamos o fundo fixo*/
+
+    /*Shorthand - background
+    color > image > position > repeat > [size] > attachment: (o size, não está funcionando no shorthand...)*/
+    background: black url('../imagens/wallpaper002.jpg') center center no-repeat fixed; 
+    background-size: cover;
 }
 
 main{
     background-color: rgb(170, 205, 226);
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid rgba(79, 63, 97, 0.829);
