@@ -1,0 +1,24 @@
+#container{
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo{
+    background-image: url('../imagens/target001.png');
+    background-size: 100% 100%;
+
+    position: absolute;/*quando eu aplico o position absolute aqui no conteudo (filho), ele permite usarmos as propriedades left e top */
+    left: 50%;/*ele pega o canto superior esquerdo,*/
+    top: 50%;
+    /*dessa forma, nossa imagem, fica da metade da tela para baixo, pra arrumar isso, precisamos usar as propriedades transform e translate, como abaixo, para colocarmos no centro do container pai*/
+    transform: translate(-50%, -50%);
+
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+}
